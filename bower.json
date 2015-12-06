@@ -1,0 +1,6 @@
+{
+  "name": "cdn-srcset-generator",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}

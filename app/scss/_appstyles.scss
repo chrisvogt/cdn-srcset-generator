@@ -1,0 +1,50 @@
+/* all app scss styles here */
+body {
+  background: #efefef;
+}
+.delaunay {
+  background-color: #220B66;
+  /* background: url(https://cdn.rawgit.com/chrisvogt/chrisvogt.me/master/img/bg-delaunay.png) no-repeat; */
+  background-size: cover;
+}
+.fullwidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+.hiro {
+  padding: 64px;
+  background: rgba(69,39,160,1);
+  background: -moz-linear-gradient(45deg, rgba(69,39,160,1) 0%, rgba(113,30,155,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(69,39,160,1)), color-stop(100%, rgba(113,30,155,1)));
+  background: -webkit-linear-gradient(45deg, rgba(69,39,160,1) 0%, rgba(113,30,155,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(69,39,160,1) 0%, rgba(113,30,155,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(69,39,160,1) 0%, rgba(113,30,155,1) 100%);
+  background: linear-gradient(45deg, rgba(69,39,160,1) 0%, rgba(113,30,155,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4527a0', endColorstr='#711e9b', GradientType=1 );
+  .div {
+    margin: 84px auto;
+  }
+}
+.controls {
+  padding: 1rem;
+  background: rgba(10,35,100,1);
+  background: -moz-linear-gradient(-45deg, rgba(10,35,100,1) 0%, rgba(113,30,155,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(10,35,100,1)), color-stop(100%, rgba(113,30,155,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(10,35,100,1) 0%, rgba(113,30,155,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(10,35,100,1) 0%, rgba(113,30,155,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(10,35,100,1) 0%, rgba(113,30,155,1) 100%);
+  background: linear-gradient(135deg, rgba(10,35,100,1) 0%, rgba(113,30,155,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2364', endColorstr='#711e9b', GradientType=1 );
+}
+/**
+ * Typography
+ */
+h1,
+.controls label {
+  color: #fefefe;
+}
+p.lead {
+  color: #cecece;
+}
