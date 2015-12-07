@@ -1,6 +1,7 @@
 {
   "name": "cdn-srcset-generator",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "octicons": "~3.3.0"
   }
 }

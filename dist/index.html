@@ -29,42 +29,49 @@
     <div class="controls fullwidth">
       <form>
         <div class="row">
-          <div class="large-10 columns">
+          <div class="large-11 columns">
             <label>Source image
               <input class="radius" type="text" placeholder="http://res.cloudinary.com/..." />
             </label>
           </div>
-          <div class="large-2 columns">
-            <a class="button expand radius" href="submit();">Generate</a>
+          <div class="large-1 columns">
+            <a class="button expand radius" href="submit();">
+              <span class="octicon octicon-tools"></span>
+            </a>
           </div>
         </div>
       </form>
     </div>
 
     <div class="row">
-      <div class="small-8 medium-10 columns panel radius">
-        <h2>Yo Foundation 5!</h2>
-        <ul>
-          <li>Sass compiling (Ruby or Node/Libsass)</li>
-          <li>Jade templating engine (option)</li>
-          <li>Publishing to dist directory</li>
-          <li>Server with LiveReload</li>
-          <li>JSHint</li>
-          <li>Grunt Bower install</li>
-          <li>Imagemin</li>
-          <li>Font Awesome (option)</li>
-        </ul>
+      <div class="small-8 medium-10 columns">
+        <h2>Code:</h2>
+        <pre>
+          <code class="language-markup">
+&lt;img src="http://www.fillmurray.com/2000/1236"
+  srcset="http://www.fillmurray.com/1024/633 1024w,
+          http://www.fillmurray.com/640/395 640w,
+          http://www.fillmurray.com/320/198 320w"
+  sizes="(min-width: 36em) 33.3vw, 100vw"
+  alt="Bill Murray"&gt;
+            </code>
+        </pre>
+        </code>
       </div>
-      <div class="small-4 medium-2 columns panel radius">
-        <h2>Breaks</h2>
-        <ul>
-          <li>1920</li>
-          <li>1400</li>
-          <li>600</li>
-        </ul>
+      <aside>
+      <div class="small-4 medium-2 columns">
+        <div class="panel radius">
+          <h4>Breakpoints</h4>
+          <ul>
+            <li>1024px</li>
+            <li>640px</li>
+            <li>320px</li>
+          </ul>
+          <!-- todo: sizing tools -->
+        </div>
       </div>
+      </aside>
     </div>
-
 
     <script src="js/vendor/libraries.min.js"></script>
     <script src="js/vendor/foundation.min.js"></script>

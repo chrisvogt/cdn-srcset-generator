@@ -24,15 +24,14 @@ module.exports = function(grunt) {
 			}
 		},
 
-		
-
 		jshint: {
 			options: {
 				jshintrc: '.jshintrc'
 			},
 			all: [
 				'Gruntfile.js',
-				'<%= app %>/js/**/*.js'
+				'<%= app %>/js/**/*.js',
+        '!<%= app %>/js/prism.js'
 			]
 		},
 
@@ -139,14 +138,14 @@ module.exports = function(grunt) {
 
 	});
 
-	
+
 	grunt.registerTask('compile-sass', ['sass']);
 	grunt.registerTask('bower-install', ['wiredep']);
-	
+
 	grunt.registerTask('default', ['compile-sass', 'bower-install', 'connect:app', 'watch']);
 	grunt.registerTask('validate-js', ['jshint']);
 	grunt.registerTask('server-dist', ['connect:dist']);
-	
+
 	grunt.registerTask('publish', ['compile-sass', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
 
 };

@@ -6951,6 +6951,12 @@ body {
   background: -ms-linear-gradient(-45deg, #0a2364 0%, #711e9b 100%);
   background: linear-gradient(135deg, #0a2364 0%, #711e9b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2364', endColorstr='#711e9b', GradientType=1 ); }
+  .controls .button {
+    margin-top: 10px; }
+
+code {
+  background: none;
+  border: none; }
 
 /**
  * Typography
@@ -6961,3 +6967,18 @@ h1,
 
 p.lead {
   color: #cecece; }
+
+/**
+ * Flexbox
+ */
+.flex {
+  height: 100%;
+  background: green;
+  border: 1px solid yellow;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center; }
